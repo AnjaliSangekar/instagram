@@ -1,0 +1,86 @@
+.feed-card {
+    border: 1px solid #e2e2e2;
+    max-width: 420px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-name {
+    font-weight: 500;
+}
+.profile-location {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.profile-icon {
+    margin-right: 10x;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-icon img {
+    width: 100%;
+}
+
+.profile-more-menu {
+    cursor: pointer;
+}
+
+.mid {
+    width: 100%;
+}
+.mid img {
+    width: 100%;
+}
+
+.reaction {
+    padding: 5px 10px;
+}
+.reaction-icon {
+    color: #727272;
+    margin-right: 10px;
+}
+
+.likes {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 10px 0 10px; /* top right bottom left */
+}
+.comment-box {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.comment-username {
+    font-weight: 500;
+}
+.comment-container {
+    padding: 10px 10px;
+}
+.add-comment {
+    width: 100%;
+}
+.add-comment input {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #e2e2e2;
+    padding: 12px 10px;
+}
+.add-comment input:focus {
+    outline: none;
+}
